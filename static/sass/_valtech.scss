@@ -10,7 +10,7 @@
 //-----------------
 
 //Main Color Variables
-$main-color: #fa40da;
+$main-color: #00BDFA;
 $dark-color: #07C1FF; //Link Color
 $light-color: #00BDFA; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
 $bg-color: #006384; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
@@ -205,4 +205,8 @@ $video-thumb-url: '../themes/valtech/images/logo_valtech_medium.png';
 @mixin footer_references_style {
     margin: 0 !important;
     text-align: right;
+}
+
+h1{
+    color : deeppink;
 }
